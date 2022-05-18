@@ -114,3 +114,14 @@ main {
 .fa-envelope {
     padding-right:10px;
 }
+.remove-btn {
+    background:none;
+    border:none;
+    color:#918E9B;
+    font-size: 8px;
+    font-weight: 400;
+    margin-left: 15px;
+}
+.remove-btn:hover, .remove-btn:focus {
+    color: #000;
+}
