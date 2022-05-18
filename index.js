@@ -19,11 +19,15 @@ let priceList = []
 const taskListEl = document.getElementById("task-list")
 const priceListEl = document.getElementById("price-list")
 const customBtns = document.getElementsByClassName("task-btn")
+
 const acceptText = document.getElementById("we-accept-text")
 const totalAmount = document.getElementById("total-amount")
 const invoiceBtn = document.getElementById("invoice-btn")
 
-invoiceBtn.addEventListener("click", () => location.reload())
+invoiceBtn.addEventListener("click", function(){
+    console.log(invoiceBtn.id)
+    location.reload();
+})
 
 for (let i=0; i<customBtns.length; i++) {
     customBtns[i].addEventListener("click", function(){

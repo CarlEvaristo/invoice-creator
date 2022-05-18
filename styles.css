@@ -48,6 +48,10 @@ main {
 .task-btn:hover, .task-btn:focus {
     background: lightgray;
 }
+.row-container {
+    display: flex;
+    justify-content: space-evenly;
+}
 .columns {
     display: flex;
     justify-content: space-between;
